@@ -22,13 +22,22 @@ export default {
   box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ecf0f1;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #app {
   min-height: 100vh;
-  padding: 20px;
+  width: 100%;
 }
 </style>
